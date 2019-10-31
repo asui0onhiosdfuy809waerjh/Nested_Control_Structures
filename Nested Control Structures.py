@@ -20,3 +20,9 @@ Programmer: Tyler Brunner
 Date: 10.23.19
 This Program will create a For loop with a While loop embedded into it
 '''
+for i in range(4):
+    print("Outer For Loop: " + str(i))
+    x = 6
+    while x >= 0:
+        print("    While Loop: " + str(x))
+        x = x - 1
