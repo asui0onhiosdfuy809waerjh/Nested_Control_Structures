@@ -18,6 +18,7 @@ print("\n**********************\n")
 
 '''
 Programmer: Tyler Brunner
+<<<<<<< HEAD
 Date: 10.22.19
 Program: Average Test Scores
 
@@ -36,4 +37,13 @@ for i in range(num_people):
         sum = sum + score
     average = float(sum) / test_per_person
     print("    Average for " + name + ": " + str(round(average, 2)))
-
+'''
+Date: 10.23.19
+This Program will create a For loop with a While loop embedded into it
+'''
+for i in range(4):
+    print("Outer For Loop: " + str(i))
+    x = 6
+    while x >= 0:
+        print("    While Loop: " + str(x))
+        x = x - 1
